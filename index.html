@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>stress test</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Stress test</h1>
+    <form id="stressTest">
+      <div class="form-group">
+        <p>Do you experience any negative signs of stress?</p>
+        <input type="checkbox" name="signs" value="1">Loss of appetite.<br>
+        <input type="checkbox" name="signs" value="1">loss of sleep.<br>
+        <input type="checkbox" name="signs" value="1">loss of mind.<br>
+        <input type="checkbox" name="signs" value="1">feeling overwhelmed.<br>
+        <input type="checkbox" name="signs" value="1">feeling sad.<br>
+      </div> 
+      <div class="form-group">
+        <p>Do you experience any symptoms of stress?</p>
+        <input type="checkbox" name="symptoms" value="1">high blood pressure.<br>
+        <input type="checkbox" name="symptoms" value="1">anger.<br>
+        <input type="checkbox" name="symptoms" value="1">confusion.<br>
+        <input type="checkbox" name="symptoms" value="1">uncontorollable sobbing.<br>
+        <input type="checkbox" name="symptoms" value="1">fear.<br>
+      </div>
+      <div class="form-group">
+        <p>Do you do any of these to relieve stress?</p>
+        <input type="checkbox" name="relief" value="-1">meditate.<br>
+        <input type="checkbox" name="relief" value="-1">yoga.<br>
+        <input type="checkbox" name="relief" value="-1">read.<br>
+        <input type="checkbox" name="relief" value="-1">breath.<br>
+        <input type="checkbox" name="relief" value="-1">garden master!<br>
+        
+      </div>
+      <button type="submit" class="btn btn-success">Submit!</button>
+    </form>
+    <span id="stressed">
+      <p><b>You are very stressed you should meditate!</b></p>
+    </span>
+    <br>
+    <span id="happy">
+      <p><b>You are very happy keep it up!</b></p>
+    </span>
+    <br>
+    <span id="chill">
+      <p><b>You are neither happy or stressed, Zen Master!</b></p>
+    </span>
+  </div>
+</body>
+</html>
